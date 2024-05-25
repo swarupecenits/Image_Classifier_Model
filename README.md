@@ -35,5 +35,6 @@ License
 
 This project is licensed under the © 2023 Copyright-All Rights Reserved to Swarup Chanda
 
+![image](https://github.com/swarupecenits/Image_Classifier_Model/assets/119785118/e50ddd80-cb67-4fb3-950f-0f0018dfbed3)
 
 

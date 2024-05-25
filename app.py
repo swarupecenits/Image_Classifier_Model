@@ -7,6 +7,19 @@ st.set_page_config(page_title='Image Classifier', page_icon=':camera_flash:')
 st.title('Image Classification Model')
 st.subheader('Upload an image of Vegetable or Fruit to identify')
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/vpbdp6xyslsthh5di2xf');
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 model = load_model('Image_classifier.keras')
 
 data_cat = ['Apple', 'Banana', 'Beetroot', 'Bell pepper', 'Cabbage', 'Capsicum', 'Carrot', 'Cauliflower',

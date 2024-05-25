@@ -4,14 +4,14 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 st.set_page_config(page_title='Image Classifier', page_icon=':camera_flash:')
-st.title('Image Classification Model')
+st.title('Image Classification')
 st.subheader('Upload an image of Vegetable or Fruit to identify')
 
 st.markdown(
     """
     <style>
     .stApp {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/vpbdp6xyslsthh5di2xf');
+        background-image: radial-gradient(circle, rgba(0.4,0,0,0.9), rgba(0,0,0,0.4)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/vpbdp6xyslsthh5di2xf');
         background-size: cover;
         background-repeat: no-repeat;
         }

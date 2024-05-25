@@ -7,7 +7,7 @@ st.set_page_config(page_title='Image Classifier', page_icon=':camera_flash:')
 st.title('Image Classification Model')
 st.subheader('Upload an image to identify')
 
-model = load_model('C:/Users/swaru/OneDrive/Documents/Machine Learning/Projects/Image Classification Model/Image_classifier.keras')
+model = load_model('Image_classifier.keras')
 
 data_cat = ['Apple', 'Banana', 'Beetroot', 'Bell pepper', 'Cabbage', 'Capsicum', 'Carrot', 'Cauliflower',
             'Chilli pepper', 'Corn', 'Cucumber', 'Eggplant', 'Garlic', 'Ginger', 'Grapes', 'Jalepeno',

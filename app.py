@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 
 st.set_page_config(page_title='Image Classifier', page_icon=':camera_flash:')
 st.title('Image Classification Model')
-st.subheader('Upload an image to identify')
+st.subheader('Upload an image of Vegetable or Fruit to identify')
 
 model = load_model('Image_classifier.keras')
 

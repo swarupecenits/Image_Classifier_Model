@@ -47,5 +47,5 @@ if uploaded_file is not None:
     except Exception as e:
         st.error(f"Error during prediction: {e}")
         
-st.write("Developed by Swarup Chanda")
+st.write("Developed by Swarup Chanda 😎")
 

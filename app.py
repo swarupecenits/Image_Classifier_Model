@@ -15,6 +15,7 @@ st.markdown(
         background: radial-gradient(circle, rgba(224,69,134,0.9761085731395777) 0%, rgba(85,26,189,0.973298534448596) 97%);
         background-size: cover;
         background-repeat: no-repeat;
+        backdrop-filter:blur(5px);
         }
     </style>
     """,

@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 st.set_page_config(page_title="Image Classifier", page_icon=":camera_flash:")
 st.markdown('<h1 class="title">Image Classification Model</h1>', unsafe_allow_html=True)
 st.markdown(
-    '<h2 class="subheader">Upload an image of Vegetable or Fruit to identify</h2>',
+    '<h3 class="subheader">Upload an image of Vegetable or Fruit to identify</h3>',
     unsafe_allow_html=True,
 )
 
@@ -28,7 +28,7 @@ st.markdown(
     .stApp {
         # background: rgb(1,13,74);
         # background: radial-gradient(circle, rgba(1,13,74,1) 0%, rgba(59,20,54,1) 100%);
-        background-image: radial-gradient(circle, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/vpbdp6xyslsthh5di2xf');
+        background-image: radial-gradient(circle, rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/vpbdp6xyslsthh5di2xf');
         background-size: cover;
         background-repeat: no-repeat;
         backdrop-filter:blur(5px);

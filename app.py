@@ -32,6 +32,9 @@ st.markdown(
         background-repeat: no-repeat;
         backdrop-filter:blur(5px);
         }
+    .css-1cpxqw2 {
+        color: white;
+    }
     </style>
     """,
     unsafe_allow_html=True,

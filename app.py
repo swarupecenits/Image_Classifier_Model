@@ -26,8 +26,9 @@ st.markdown(
         color: white;
     }
     .stApp {
-        background: rgb(1,13,74);
-        background: radial-gradient(circle, rgba(1,13,74,1) 0%, rgba(59,20,54,1) 100%);
+        # background: rgb(1,13,74);
+        # background: radial-gradient(circle, rgba(1,13,74,1) 0%, rgba(59,20,54,1) 100%);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/ewe6xn2ruekdlmhqs0kt');
         background-size: cover;
         background-repeat: no-repeat;
         backdrop-filter:blur(5px);

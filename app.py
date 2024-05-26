@@ -11,8 +11,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: rgb(224,69,134);
-        background: radial-gradient(circle, rgba(224,69,134,0.9761085731395777) 0%, rgba(85,26,189,0.973298534448596) 97%);
+        background: rgb(1,13,74);
+        background: radial-gradient(circle, rgba(1,13,74,1) 0%, rgba(59,20,54,1) 100%);
         background-size: cover;
         background-repeat: no-repeat;
         backdrop-filter:blur(5px);
